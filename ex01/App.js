@@ -25,9 +25,9 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
     justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#fff',
     gap: 16,
   },
   button: {
@@ -48,5 +48,5 @@ const styles = StyleSheet.create({
     paddingHorizontal: 48,
     borderRadius: 10, 
     fontSize: 30,
-  }
+  },
 });
