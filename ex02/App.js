@@ -73,66 +73,66 @@ export default function App() {
       {/* Área dos botões alinhada na parte de baixo */}
       <View style={styles.buttonsArea}>
         <View style={rowStyle}>
-          <TouchableOpacity style={buttonStyle}>
+          <TouchableOpacity style={buttonStyle} onPress={() => {console.log(7)}}>
             <Text style={styles.buttonText}>7</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={buttonStyle}>
+          <TouchableOpacity style={buttonStyle} onPress={() => {console.log(8)}}>
             <Text style={styles.buttonText}>8</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={buttonStyle}>
+          <TouchableOpacity style={buttonStyle} onPress={() => {console.log(9)}}>
             <Text style={styles.buttonText}>9</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={buttonStyle}>
+          <TouchableOpacity style={buttonStyle} onPress={() => {console.log('/')}}>
             <Text style={styles.buttonText}>/</Text>
           </TouchableOpacity>
         </View>
         <View style={rowStyle}>
-          <TouchableOpacity style={buttonStyle}>
+          <TouchableOpacity style={buttonStyle} onPress={() => {console.log(4)}}>
             <Text style={styles.buttonText}>4</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={buttonStyle}>
+          <TouchableOpacity style={buttonStyle} onPress={() => {console.log(5)}}>
             <Text style={styles.buttonText}>5</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={buttonStyle}>
+          <TouchableOpacity style={buttonStyle} onPress={() => {console.log(6)}}>
             <Text style={styles.buttonText}>6</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={buttonStyle}>
+          <TouchableOpacity style={buttonStyle} onPress={() => {console.log('*')}}>
             <Text style={styles.buttonText}>*</Text>
           </TouchableOpacity>
         </View>
         <View style={rowStyle}>
-          <TouchableOpacity style={buttonStyle}>
+          <TouchableOpacity style={buttonStyle} onPress={() => {console.log(1)}}>
             <Text style={styles.buttonText}>1</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={buttonStyle}>
+          <TouchableOpacity style={buttonStyle} onPress={() => {console.log(2)}}>
             <Text style={styles.buttonText}>2</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={buttonStyle}>
+          <TouchableOpacity style={buttonStyle} onPress={() => {console.log(3)}}>
             <Text style={styles.buttonText}>3</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={buttonStyle}>
+          <TouchableOpacity style={buttonStyle} onPress={() => {console.log('-')}}>
             <Text style={styles.buttonText}>-</Text>
           </TouchableOpacity>
         </View>
         <View style={rowStyle}>
-          <TouchableOpacity style={buttonStyle}>
+          <TouchableOpacity style={buttonStyle} onPress={() => {console.log(0)}}>
             <Text style={styles.buttonText}>0</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={buttonStyle}>
+          <TouchableOpacity style={buttonStyle} onPress={() => {console.log('.')}}>
             <Text style={styles.buttonText}>.</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={buttonStyle}>
+          <TouchableOpacity style={buttonStyle} onPress={() => {console.log('=')}}>
             <Text style={styles.buttonText}>=</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={buttonStyle}>
+          <TouchableOpacity style={buttonStyle} onPress={() => {console.log('+')}}>
             <Text style={styles.buttonText}>+</Text>
           </TouchableOpacity>
         </View>
         <View style={rowStyle}>
-          <TouchableOpacity style={buttonStyle}>
+          <TouchableOpacity style={buttonStyle} onPress={() => {console.log("AC")}}>
             <Text style={styles.buttonAc}>AC</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={buttonStyle}>
+          <TouchableOpacity style={buttonStyle} onPress={() => {console.log('C')}}>
             <Text style={styles.buttonAc}>C</Text>
           </TouchableOpacity>
         </View>
