@@ -37,7 +37,7 @@ export function responsive() {
 
   const displayTextStyle = { ...styles.displayText };
   if (isPortrait) {
-    displayTextStyle.fontSize = 48;
+    displayTextStyle.fontSize = 26;
     displayTextStyle.paddingHorizontal = 26;
   } else {
     displayTextStyle.fontSize = 36;

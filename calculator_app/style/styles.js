@@ -20,7 +20,6 @@ export const styles = StyleSheet.create({
   },
   display: {
 	justifyContent: 'flex-start',
-	alignItems: 'flex-end',
   },
   displayText: {
 	color: '#333',
